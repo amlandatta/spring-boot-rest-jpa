@@ -4,6 +4,9 @@ target/
 #!.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
 !**/src/test/**
+docs/.pptx
+docs/.drawio
+.DS_Store
 
 ### STS ###
 .apt_generated
