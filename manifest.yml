@@ -1,0 +1,12 @@
+---
+applications:
+- name: ((app_name))
+  instances: ((instances))
+  memory: ((memory))
+  disk_quota: ((disk_quota))
+  buildpacks:
+  - ((buildpack-java))
+  path: ((app_path))
+  routes:
+   - route: ((app_name)).apps.internal
+   - route: ((app_name)).((domain))
